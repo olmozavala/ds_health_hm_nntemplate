@@ -2,6 +2,28 @@
 
 The objective of this homework is to implement a configurable neural network system using a professional PyTorch project template. You'll learn how to organize code in a maintainable structure while experimenting with neural network architectures.
 
+## Setup
+
+1. Clone your GitHub Classroom repository:
+
+```bash
+git clone YOUR_REPO_URL
+```
+
+2. Add the template repository as a remote and merge it into your repository:
+
+```bash
+git remote add template https://github.com/fsu-sc/ml_torch_templates.git
+git fetch template
+git merge template/main --allow-unrelated-histories
+```
+
+3. Install the requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 1. Implement Custom Dataset (10 pts)
 Create `data_loader/function_dataset.py` that implements a custom dataset for function approximation. Your dataset should:
 
